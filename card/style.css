@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(226, 220, 220);
+}
+
+.main {
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 55px;
+    width: 76vw;
+    height: 85vh;
+    background-color: white;
+}
+
+img {
+    width: 74vw;
+    margin-top: 6px;
+    margin-left: 6px;
+    border-radius: 10px;
+}
+
+.nl {
+    margin-top: 25px;
+}
+
+.text1 {
+    margin: 35px;
+    color: rgb(1, 8, 14);
+    border: 2px solid rgb(244, 240, 233);
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+}
+
+.text2 {
+    color: rgb(1, 8, 14);
+    border: 2px solid rgb(244, 240, 233);
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+}
+
+.content {
+    margin: 35px;
+}
+
+.readmore {
+    margin-left: 150px;
+}
+
+.con {
+    background-color: rgba(60, 146, 239, 0.26);
+    color: rgb(8, 96, 203);
+    font-weight: 800;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+}
