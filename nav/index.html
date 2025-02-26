@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        :root {
+            --col: rgb(11, 136, 167);
+            --seccol: rgb(83, 237, 237);
+            --pad: 23px;
+            --bacolor: rgb(83, 237, 237);
+        }
+
+        /* :root {
+            --col: rgb(17, 232, 52);
+            --seccol: rgb(130, 250, 148);
+            --pad: 23px;
+            --bacolor: rgb(130, 250, 148);
+        } */
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bacolor);
+        }
+
+        nav {
+            background-color: var(--col);
+            padding: 12px 0px;
+        }
+
+        ul li {
+            list-style-type: none;
+            padding: var(--pad);
+            display: inline;
+            font-family: "Poppins", serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .text {
+            background-color: var(--seccol);
+        }
+
+        li a:hover {
+            color: white;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navi">
+        <nav>
+            <ul>
+                <li><a href="/">home</a></li>
+                <li><a href="/">pages</a></li>
+                <li><a href="/">tutorial</a></li>
+                <li><a href="/">contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quae, ipsam atque quisquam minus autem alias
+        mollitia ut! Excepturi nihil blanditiis repellendus sed tempore atque vitae! Dolorum eum ducimus deleniti
+        sapiente repudiandae voluptatem, iusto blanditiis in, voluptas aut dolor, est molestias? Corporis consequatur
+        itaque ex.
+    </div>
+</body>
+
+</html>
