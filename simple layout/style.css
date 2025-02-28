@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+ul li {
+    padding: 10px 20px;
+    list-style-type: none;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header nav ul {
+    background-color: beige;
+    display: flex;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+li a {}
+
+.box {
+    margin-top: 30px;
+    height: 700px;
+    background-color: chocolate;
+    display: flex;
+}
+
+.box1 {
+    margin: 10px;
+    background-color: yellow;
+    height: 600px;
+    width: 750px;
+}
+
+.box2 {
+    margin: 10px;
+    background-color: rgb(44, 174, 53);
+    height: 600px;
+    width: 720px;
+}
+
+.text p {
+    margin: 70px;
+    color: white;
+    border: 2px solid white;
+    margin: 70px 500px;
+    padding: 30px;
+    border-radius: 10px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+}
+
+.footer {
+    height: 50px;
+    background-color: brown;
+}
+.orange{
+    height: 20px;
+    width:20px;
+    background-color: cornflowerblue;
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    border-radius: 60px;
+}
