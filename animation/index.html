@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+            width: 80vw;
+            height: 70vh;
+            position: relative;
+        }
+        .box{
+            background-color: red;
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-radius: 30px;
+           animation: animi1 5s linear 1s infinite alternate
+           , animi2 1s ease-in-out 1s infinite alternate;
+        }
+        @keyframes animi1 {
+            from{
+                left: 0;
+            }
+            to{
+                left: 100%;
+            }
+            
+        }
+        @keyframes animi2 {
+            from{
+                bottom: 0;
+            }
+            to{
+                bottom: 100%;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>
